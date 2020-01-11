@@ -12,7 +12,7 @@ namespace E_CommerceDb.DAL.Model.ORM.Entity.Abstract
     public interface ICore
     {
 
-        [Key,DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+       
         int ID { get; set; }
         DateTime AddDate { get; set; }
 

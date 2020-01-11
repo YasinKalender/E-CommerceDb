@@ -9,10 +9,10 @@ namespace E_CommerceDb.DAL.Model.ORM.Entity.Concrete
 {
     public class Category:BaseEntity
     {
-        [Required,MaxLength(15)]
+       
         public string CategoryName { get; set; }
 
-        [Required, MaxLength(30)]
+       
         public string CategoryDescription { get; set; }
 
         public string Picture { get; set; }

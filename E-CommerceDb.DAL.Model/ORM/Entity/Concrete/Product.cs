@@ -10,23 +10,23 @@ namespace E_CommerceDb.DAL.Model.ORM.Entity.Concrete
 {
     public class Product:BaseEntity
     {
-        [Required]
+  
         public string ProductName { get; set; }
 
-        [Required]
+       
         public string QuntitiyPerUnit { get; set; }
-        [Required]
+        
         public decimal UnitPrice { get; set; }
-        [Required]
+        
         public int UnitStock { get; set; }
 
-        [Required]
+        
         public int UnitsOnOrder { get; set; }
 
-        [Required]
+        
         public int RecorderLevel { get; set; }
 
-        [Required]
+        
         public int Discount { get; set; }
 
        

@@ -10,27 +10,27 @@ namespace E_CommerceDb.DAL.Model.ORM.Entity.Concrete
 {
     public class Orders:BaseEntity
     {
-        [Required]
+        
         public DateTime OrderDate { get; set; }
-        [Required]
+     
         public DateTime RequiredDate { get; set; }
-        [Required]
+       
         public DateTime ShippedDate { get; set; }
-        [Required]
+       
         public int ShipVia { get; set; }
-        [Required]
+        
         public double Freight { get; set; }
-        [Required]
+        
         public string ShipName { get; set; }
-        [Required]
+        
         public string ShipAdress { get; set; }
-        [Required]
+        
         public string ShipCity { get; set; }
-        [Required]
+      
         public string ShipRegion { get; set; }
-        [Required]
+        
         public string ShipCountry { get; set; }
-        [Required]
+        
         public int ShipPostalCode { get; set; }
 
         public List<OrderDetails> orderDetails { get; set; }

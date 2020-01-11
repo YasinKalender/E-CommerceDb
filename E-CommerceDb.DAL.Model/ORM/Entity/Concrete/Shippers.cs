@@ -9,10 +9,10 @@ namespace E_CommerceDb.DAL.Model.ORM.Entity.Concrete
 {
     public class Shippers:BaseEntity
     {
-        [Required]
+      
         public string CampanyName { get; set; }
 
-        [Required]
+      
         public string Phone { get; set; }
 
         public List<Orders> orders { get; set; }

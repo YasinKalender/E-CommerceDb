@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-CommerceDb.DAL.Model", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-CommerceDb.DAL", "E-CommerceDb.DAL\E-CommerceDb.DAL.csproj", "{3A893469-8E51-4432-BDFB-19E3C360FFF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-CommerceDB.Map", "E-CommerceDB.Map\E-CommerceDB.Map.csproj", "{210A3523-E988-48A9-82B1-8FC25BF202AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3A893469-8E51-4432-BDFB-19E3C360FFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A893469-8E51-4432-BDFB-19E3C360FFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A893469-8E51-4432-BDFB-19E3C360FFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210A3523-E988-48A9-82B1-8FC25BF202AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210A3523-E988-48A9-82B1-8FC25BF202AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210A3523-E988-48A9-82B1-8FC25BF202AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210A3523-E988-48A9-82B1-8FC25BF202AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
